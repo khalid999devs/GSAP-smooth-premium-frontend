@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zetr Scroll Animation Rebuild</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.1.17/dist/lenis.css"
+    /> -->
+  </head>
+  <body>
+    <div class="container">
+      <section class="pinned">
+        <div class="info">
+          <div class="title">TITLE</div>
+          <div class="tagline">TAGLINE</div>
+          <div class="year">YEAR</div>
+          <div class="tag">TAG</div>
+          <div class="link">
+            <a href="#">Explore</a>
+          </div>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+
+        <div class="img" id="img-1"><img src="./images/img1.jpg" /></div>
+        <div class="img" id="img-2"><img src="./images/img2.jpg" /></div>
+        <div class="img" id="img-3"><img src="./images/img3.jpg" /></div>
+        <div class="img" id="img-4"><img src="./images/img4.jpg" /></div>
+        <div class="img" id="img-5"><img src="./images/img5.jpg" /></div>
+      </section>
+      <section class="about">
+        <p>Your next section goes here</p>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"></script>
+    <script src="./data.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>

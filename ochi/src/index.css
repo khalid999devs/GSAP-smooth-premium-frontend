@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Founders Grotesk X-Condensed';
+  src: url('/Fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.founders-grotex {
+  font-family: 'Founders Grotesk X-Condensed';
+}
